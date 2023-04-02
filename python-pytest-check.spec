@@ -1,7 +1,7 @@
 #
 # Conditional build:
 %bcond_without	python2 # CPython 2.x module
-%bcond_without	python3 # CPython 3.x module
+%bcond_with	python3 # CPython 3.x module (built from python3-pytest-check.spec)
 
 Summary:	pytest plugin that allows multiple failures per test
 Summary(pl.UTF-8):	Wtyczka pytesta pozwalająca na wiele niepowodzeń z jednego testu
